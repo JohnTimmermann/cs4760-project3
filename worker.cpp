@@ -60,6 +60,7 @@ int main(int argc, char* argv[]) {
     // Check if termination time has been reached
     message message;
     bool should_terminate = false;
+    int messages_received_count = 0;
 
     do {
         // Block while waiting for a message from oss
@@ -67,6 +68,12 @@ int main(int argc, char* argv[]) {
             perror("worker: msgrcv");
             exit(1);
         }
+
+        messages_received_count++; // Increment counter
+
+        cout << "WORKER PID:" << getpid() << " PPID:" << getppid() << endl;
+        cout << " SysClockS: " << shared_clock->seconds << " SysclockNano: " << shared_clock->nanoseconds << " TermTimeS: " << term_seconds << " TermTimeNano: " << term_nanos << endl;
+        cout << "--" << messages_received_count << " messages received from oss" << endl;
 
         // Check termination time
         if (shared_clock->seconds > term_seconds || (shared_clock->seconds == term_seconds && shared_clock->nanoseconds >= term_nanos)) {
@@ -88,13 +95,14 @@ int main(int argc, char* argv[]) {
     // Termination message
     cout << "WORKER PID:" << getpid() << " PPID:" << getppid() << endl;
     cout << " SysClocks: " << shared_clock->seconds << " SysclockNano: " << shared_clock->nanoseconds << " TermTimeS: " << term_seconds << " TermTimeNano: " << term_nanos << endl;
-    cout << " --Terminating" << endl;
+    cout << "--Terminating after sending message back to oss after " << messages_received_count << " received messages." << endl;
 
 
     // Detach from shared memory
     shmdt(shared_clock);
     return 0;
 }
+
 
 
 
