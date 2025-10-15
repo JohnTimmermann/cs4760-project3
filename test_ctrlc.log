@@ -1,0 +1,3351 @@
+OSS Starting, PID:238396 PPID:117392
+Called with:
+-n 20
+-s 5
+-t 10
+-i 0.2
+OSS: Initialized clock to 0s and 0ns.
+OSS: Launched child 238397 into PCB slot 0 at 0s 10000000ns.
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 0:260000000
+OSS: Receiving message from worker 238397 at time 0:260000000
+OSS: Launched child 238398 into PCB slot 1 at 0s 260000000ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 0:385000000
+OSS: Receiving message from worker 238398 at time 0:385000000
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 0:510000000
+OSS: Receiving message from worker 238397 at time 0:510000000
+
+OSS PID:238396 SysClockS: 0 SysclockNano: 510000000
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	2
+1	1	238398	0	260000000	1
+2	0	21889	1103487174	21889	0
+3	0	-237355616	32619	16	0
+4	0	21889	16	0	0
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Launched child 238399 into PCB slot 2 at 0s 510000000ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 0:593333333
+OSS: Receiving message from worker 238398 at time 0:593333333
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 0:676666666
+OSS: Receiving message from worker 238399 at time 0:676666666
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 0:759999999
+OSS: Receiving message from worker 238397 at time 0:759999999
+OSS: Launched child 238400 into PCB slot 3 at 0s 759999999ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 0:822499999
+OSS: Receiving message from worker 238398 at time 0:822499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 0:884999999
+OSS: Receiving message from worker 238399 at time 0:884999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 0:947499999
+OSS: Receiving message from worker 238400 at time 0:947499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 1:9999999
+OSS: Receiving message from worker 238397 at time 1:9999999
+OSS: Launched child 238401 into PCB slot 4 at 1s 9999999ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 1:59999999
+OSS: Receiving message from worker 238398 at time 1:59999999
+
+OSS PID:238396 SysClockS: 1 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	4
+1	1	238398	0	260000000	4
+2	1	238399	0	510000000	2
+3	1	238400	0	759999999	1
+4	1	238401	1	9999999	0
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 1:109999999
+OSS: Receiving message from worker 238399 at time 1:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 1:159999999
+OSS: Receiving message from worker 238400 at time 1:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 1:209999999
+OSS: Receiving message from worker 238401 at time 1:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 1:259999999
+OSS: Receiving message from worker 238397 at time 1:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 1:309999999
+OSS: Receiving message from worker 238398 at time 1:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 1:359999999
+OSS: Receiving message from worker 238399 at time 1:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 1:409999999
+OSS: Receiving message from worker 238400 at time 1:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 1:459999999
+OSS: Receiving message from worker 238401 at time 1:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 1:509999999
+OSS: Receiving message from worker 238397 at time 1:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 1:559999999
+OSS: Receiving message from worker 238398 at time 1:559999999
+
+OSS PID:238396 SysClockS: 1 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	6
+1	1	238398	0	260000000	6
+2	1	238399	0	510000000	4
+3	1	238400	0	759999999	3
+4	1	238401	1	9999999	2
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 1:609999999
+OSS: Receiving message from worker 238399 at time 1:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 1:659999999
+OSS: Receiving message from worker 238400 at time 1:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 1:709999999
+OSS: Receiving message from worker 238401 at time 1:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 1:759999999
+OSS: Receiving message from worker 238397 at time 1:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 1:809999999
+OSS: Receiving message from worker 238398 at time 1:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 1:859999999
+OSS: Receiving message from worker 238399 at time 1:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 1:909999999
+OSS: Receiving message from worker 238400 at time 1:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 1:959999999
+OSS: Receiving message from worker 238401 at time 1:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 2:9999999
+OSS: Receiving message from worker 238397 at time 2:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 2:59999999
+OSS: Receiving message from worker 238398 at time 2:59999999
+
+OSS PID:238396 SysClockS: 2 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	8
+1	1	238398	0	260000000	8
+2	1	238399	0	510000000	6
+3	1	238400	0	759999999	5
+4	1	238401	1	9999999	4
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 2:109999999
+OSS: Receiving message from worker 238399 at time 2:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 2:159999999
+OSS: Receiving message from worker 238400 at time 2:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 2:209999999
+OSS: Receiving message from worker 238401 at time 2:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 2:259999999
+OSS: Receiving message from worker 238397 at time 2:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 2:309999999
+OSS: Receiving message from worker 238398 at time 2:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 2:359999999
+OSS: Receiving message from worker 238399 at time 2:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 2:409999999
+OSS: Receiving message from worker 238400 at time 2:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 2:459999999
+OSS: Receiving message from worker 238401 at time 2:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 2:509999999
+OSS: Receiving message from worker 238397 at time 2:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 2:559999999
+OSS: Receiving message from worker 238398 at time 2:559999999
+
+OSS PID:238396 SysClockS: 2 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	10
+1	1	238398	0	260000000	10
+2	1	238399	0	510000000	8
+3	1	238400	0	759999999	7
+4	1	238401	1	9999999	6
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 2:609999999
+OSS: Receiving message from worker 238399 at time 2:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 2:659999999
+OSS: Receiving message from worker 238400 at time 2:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 2:709999999
+OSS: Receiving message from worker 238401 at time 2:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 2:759999999
+OSS: Receiving message from worker 238397 at time 2:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 2:809999999
+OSS: Receiving message from worker 238398 at time 2:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 2:859999999
+OSS: Receiving message from worker 238399 at time 2:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 2:909999999
+OSS: Receiving message from worker 238400 at time 2:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 2:959999999
+OSS: Receiving message from worker 238401 at time 2:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 3:9999999
+OSS: Receiving message from worker 238397 at time 3:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 3:59999999
+OSS: Receiving message from worker 238398 at time 3:59999999
+
+OSS PID:238396 SysClockS: 3 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	12
+1	1	238398	0	260000000	12
+2	1	238399	0	510000000	10
+3	1	238400	0	759999999	9
+4	1	238401	1	9999999	8
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 3:109999999
+OSS: Receiving message from worker 238399 at time 3:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 3:159999999
+OSS: Receiving message from worker 238400 at time 3:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 3:209999999
+OSS: Receiving message from worker 238401 at time 3:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 3:259999999
+OSS: Receiving message from worker 238397 at time 3:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 3:309999999
+OSS: Receiving message from worker 238398 at time 3:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 3:359999999
+OSS: Receiving message from worker 238399 at time 3:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 3:409999999
+OSS: Receiving message from worker 238400 at time 3:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 3:459999999
+OSS: Receiving message from worker 238401 at time 3:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 3:509999999
+OSS: Receiving message from worker 238397 at time 3:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 3:559999999
+OSS: Receiving message from worker 238398 at time 3:559999999
+
+OSS PID:238396 SysClockS: 3 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	14
+1	1	238398	0	260000000	14
+2	1	238399	0	510000000	12
+3	1	238400	0	759999999	11
+4	1	238401	1	9999999	10
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 3:609999999
+OSS: Receiving message from worker 238399 at time 3:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 3:659999999
+OSS: Receiving message from worker 238400 at time 3:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 3:709999999
+OSS: Receiving message from worker 238401 at time 3:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 3:759999999
+OSS: Receiving message from worker 238397 at time 3:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 3:809999999
+OSS: Receiving message from worker 238398 at time 3:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 3:859999999
+OSS: Receiving message from worker 238399 at time 3:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 3:909999999
+OSS: Receiving message from worker 238400 at time 3:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 3:959999999
+OSS: Receiving message from worker 238401 at time 3:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 4:9999999
+OSS: Receiving message from worker 238397 at time 4:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 4:59999999
+OSS: Receiving message from worker 238398 at time 4:59999999
+
+OSS PID:238396 SysClockS: 4 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	16
+1	1	238398	0	260000000	16
+2	1	238399	0	510000000	14
+3	1	238400	0	759999999	13
+4	1	238401	1	9999999	12
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 4:109999999
+OSS: Receiving message from worker 238399 at time 4:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 4:159999999
+OSS: Receiving message from worker 238400 at time 4:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 4:209999999
+OSS: Receiving message from worker 238401 at time 4:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 4:259999999
+OSS: Receiving message from worker 238397 at time 4:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 4:309999999
+OSS: Receiving message from worker 238398 at time 4:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 4:359999999
+OSS: Receiving message from worker 238399 at time 4:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 4:409999999
+OSS: Receiving message from worker 238400 at time 4:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 4:459999999
+OSS: Receiving message from worker 238401 at time 4:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 4:509999999
+OSS: Receiving message from worker 238397 at time 4:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 4:559999999
+OSS: Receiving message from worker 238398 at time 4:559999999
+
+OSS PID:238396 SysClockS: 4 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	18
+1	1	238398	0	260000000	18
+2	1	238399	0	510000000	16
+3	1	238400	0	759999999	15
+4	1	238401	1	9999999	14
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 4:609999999
+OSS: Receiving message from worker 238399 at time 4:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 4:659999999
+OSS: Receiving message from worker 238400 at time 4:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 4:709999999
+OSS: Receiving message from worker 238401 at time 4:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 4:759999999
+OSS: Receiving message from worker 238397 at time 4:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 4:809999999
+OSS: Receiving message from worker 238398 at time 4:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 4:859999999
+OSS: Receiving message from worker 238399 at time 4:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 4:909999999
+OSS: Receiving message from worker 238400 at time 4:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 4:959999999
+OSS: Receiving message from worker 238401 at time 4:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 5:9999999
+OSS: Receiving message from worker 238397 at time 5:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 5:59999999
+OSS: Receiving message from worker 238398 at time 5:59999999
+
+OSS PID:238396 SysClockS: 5 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	20
+1	1	238398	0	260000000	20
+2	1	238399	0	510000000	18
+3	1	238400	0	759999999	17
+4	1	238401	1	9999999	16
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 5:109999999
+OSS: Receiving message from worker 238399 at time 5:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 5:159999999
+OSS: Receiving message from worker 238400 at time 5:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 5:209999999
+OSS: Receiving message from worker 238401 at time 5:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 5:259999999
+OSS: Receiving message from worker 238397 at time 5:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 5:309999999
+OSS: Receiving message from worker 238398 at time 5:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 5:359999999
+OSS: Receiving message from worker 238399 at time 5:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 5:409999999
+OSS: Receiving message from worker 238400 at time 5:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 5:459999999
+OSS: Receiving message from worker 238401 at time 5:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 5:509999999
+OSS: Receiving message from worker 238397 at time 5:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 5:559999999
+OSS: Receiving message from worker 238398 at time 5:559999999
+
+OSS PID:238396 SysClockS: 5 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	22
+1	1	238398	0	260000000	22
+2	1	238399	0	510000000	20
+3	1	238400	0	759999999	19
+4	1	238401	1	9999999	18
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 5:609999999
+OSS: Receiving message from worker 238399 at time 5:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 5:659999999
+OSS: Receiving message from worker 238400 at time 5:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 5:709999999
+OSS: Receiving message from worker 238401 at time 5:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 5:759999999
+OSS: Receiving message from worker 238397 at time 5:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 5:809999999
+OSS: Receiving message from worker 238398 at time 5:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 5:859999999
+OSS: Receiving message from worker 238399 at time 5:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 5:909999999
+OSS: Receiving message from worker 238400 at time 5:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 5:959999999
+OSS: Receiving message from worker 238401 at time 5:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 6:9999999
+OSS: Receiving message from worker 238397 at time 6:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 6:59999999
+OSS: Receiving message from worker 238398 at time 6:59999999
+
+OSS PID:238396 SysClockS: 6 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	24
+1	1	238398	0	260000000	24
+2	1	238399	0	510000000	22
+3	1	238400	0	759999999	21
+4	1	238401	1	9999999	20
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 6:109999999
+OSS: Receiving message from worker 238399 at time 6:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 6:159999999
+OSS: Receiving message from worker 238400 at time 6:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 6:209999999
+OSS: Receiving message from worker 238401 at time 6:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 6:259999999
+OSS: Receiving message from worker 238397 at time 6:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 6:309999999
+OSS: Receiving message from worker 238398 at time 6:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 6:359999999
+OSS: Receiving message from worker 238399 at time 6:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 6:409999999
+OSS: Receiving message from worker 238400 at time 6:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 6:459999999
+OSS: Receiving message from worker 238401 at time 6:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 6:509999999
+OSS: Receiving message from worker 238397 at time 6:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 6:559999999
+OSS: Receiving message from worker 238398 at time 6:559999999
+
+OSS PID:238396 SysClockS: 6 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	26
+1	1	238398	0	260000000	26
+2	1	238399	0	510000000	24
+3	1	238400	0	759999999	23
+4	1	238401	1	9999999	22
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 6:609999999
+OSS: Receiving message from worker 238399 at time 6:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 6:659999999
+OSS: Receiving message from worker 238400 at time 6:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 6:709999999
+OSS: Receiving message from worker 238401 at time 6:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 6:759999999
+OSS: Receiving message from worker 238397 at time 6:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 6:809999999
+OSS: Receiving message from worker 238398 at time 6:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 6:859999999
+OSS: Receiving message from worker 238399 at time 6:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 6:909999999
+OSS: Receiving message from worker 238400 at time 6:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 6:959999999
+OSS: Receiving message from worker 238401 at time 6:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 7:9999999
+OSS: Receiving message from worker 238397 at time 7:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 7:59999999
+OSS: Receiving message from worker 238398 at time 7:59999999
+
+OSS PID:238396 SysClockS: 7 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	28
+1	1	238398	0	260000000	28
+2	1	238399	0	510000000	26
+3	1	238400	0	759999999	25
+4	1	238401	1	9999999	24
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 7:109999999
+OSS: Receiving message from worker 238399 at time 7:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 7:159999999
+OSS: Receiving message from worker 238400 at time 7:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 7:209999999
+OSS: Receiving message from worker 238401 at time 7:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 7:259999999
+OSS: Receiving message from worker 238397 at time 7:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 7:309999999
+OSS: Receiving message from worker 238398 at time 7:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 7:359999999
+OSS: Receiving message from worker 238399 at time 7:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 7:409999999
+OSS: Receiving message from worker 238400 at time 7:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 7:459999999
+OSS: Receiving message from worker 238401 at time 7:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 7:509999999
+OSS: Receiving message from worker 238397 at time 7:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 7:559999999
+OSS: Receiving message from worker 238398 at time 7:559999999
+
+OSS PID:238396 SysClockS: 7 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	30
+1	1	238398	0	260000000	30
+2	1	238399	0	510000000	28
+3	1	238400	0	759999999	27
+4	1	238401	1	9999999	26
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 7:609999999
+OSS: Receiving message from worker 238399 at time 7:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 7:659999999
+OSS: Receiving message from worker 238400 at time 7:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 7:709999999
+OSS: Receiving message from worker 238401 at time 7:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 7:759999999
+OSS: Receiving message from worker 238397 at time 7:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 7:809999999
+OSS: Receiving message from worker 238398 at time 7:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 7:859999999
+OSS: Receiving message from worker 238399 at time 7:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 7:909999999
+OSS: Receiving message from worker 238400 at time 7:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 7:959999999
+OSS: Receiving message from worker 238401 at time 7:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 8:9999999
+OSS: Receiving message from worker 238397 at time 8:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 8:59999999
+OSS: Receiving message from worker 238398 at time 8:59999999
+
+OSS PID:238396 SysClockS: 8 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	32
+1	1	238398	0	260000000	32
+2	1	238399	0	510000000	30
+3	1	238400	0	759999999	29
+4	1	238401	1	9999999	28
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 8:109999999
+OSS: Receiving message from worker 238399 at time 8:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 8:159999999
+OSS: Receiving message from worker 238400 at time 8:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 8:209999999
+OSS: Receiving message from worker 238401 at time 8:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 8:259999999
+OSS: Receiving message from worker 238397 at time 8:259999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 8:309999999
+OSS: Receiving message from worker 238398 at time 8:309999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 8:359999999
+OSS: Receiving message from worker 238399 at time 8:359999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 8:409999999
+OSS: Receiving message from worker 238400 at time 8:409999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 8:459999999
+OSS: Receiving message from worker 238401 at time 8:459999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 8:509999999
+OSS: Receiving message from worker 238397 at time 8:509999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 8:559999999
+OSS: Receiving message from worker 238398 at time 8:559999999
+
+OSS PID:238396 SysClockS: 8 SysclockNano: 559999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	34
+1	1	238398	0	260000000	34
+2	1	238399	0	510000000	32
+3	1	238400	0	759999999	31
+4	1	238401	1	9999999	30
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 8:609999999
+OSS: Receiving message from worker 238399 at time 8:609999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 8:659999999
+OSS: Receiving message from worker 238400 at time 8:659999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 8:709999999
+OSS: Receiving message from worker 238401 at time 8:709999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 8:759999999
+OSS: Receiving message from worker 238397 at time 8:759999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 8:809999999
+OSS: Receiving message from worker 238398 at time 8:809999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 8:859999999
+OSS: Receiving message from worker 238399 at time 8:859999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 8:909999999
+OSS: Receiving message from worker 238400 at time 8:909999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 8:959999999
+OSS: Receiving message from worker 238401 at time 8:959999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 9:9999999
+OSS: Receiving message from worker 238397 at time 9:9999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 9:59999999
+OSS: Receiving message from worker 238398 at time 9:59999999
+
+OSS PID:238396 SysClockS: 9 SysclockNano: 59999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238397	0	10000000	36
+1	1	238398	0	260000000	36
+2	1	238399	0	510000000	34
+3	1	238400	0	759999999	33
+4	1	238401	1	9999999	32
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 9:109999999
+OSS: Receiving message from worker 238399 at time 9:109999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 9:159999999
+OSS: Receiving message from worker 238400 at time 9:159999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 9:209999999
+OSS: Receiving message from worker 238401 at time 9:209999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238397) at time 9:259999999
+OSS: Receiving message from worker 238397 at time 9:259999999
+OSS: Worker 238397 is planning to terminate.
+OSS: Launched child 238402 into PCB slot 0 at 9s 259999999ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238398) at time 9:309999999
+OSS: Receiving message from worker 238398 at time 9:309999999
+OSS: Worker 238398 is planning to terminate.
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 9:372499999
+OSS: Receiving message from worker 238399 at time 9:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 9:434999999
+OSS: Receiving message from worker 238400 at time 9:434999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 9:497499999
+OSS: Receiving message from worker 238401 at time 9:497499999
+OSS: Launched child 238403 into PCB slot 1 at 9s 497499999ns.
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 9:547499999
+OSS: Receiving message from worker 238402 at time 9:547499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 9:597499999
+OSS: Receiving message from worker 238403 at time 9:597499999
+
+OSS PID:238396 SysClockS: 9 SysclockNano: 597499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	1
+1	1	238403	9	497499999	1
+2	1	238399	0	510000000	36
+3	1	238400	0	759999999	35
+4	1	238401	1	9999999	34
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238399) at time 9:647499999
+OSS: Receiving message from worker 238399 at time 9:647499999
+OSS: Worker 238399 is planning to terminate.
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 9:709999999
+OSS: Receiving message from worker 238400 at time 9:709999999
+OSS: Launched child 238404 into PCB slot 2 at 9s 709999999ns.
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 9:759999999
+OSS: Receiving message from worker 238401 at time 9:759999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 9:809999999
+OSS: Receiving message from worker 238402 at time 9:809999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 9:859999999
+OSS: Receiving message from worker 238403 at time 9:859999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 9:909999999
+OSS: Receiving message from worker 238404 at time 9:909999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238400) at time 9:959999999
+OSS: Receiving message from worker 238400 at time 9:959999999
+OSS: Worker 238400 is planning to terminate.
+OSS: Launched child 238405 into PCB slot 3 at 9s 959999999ns.
+OSS: Sending message to worker in PCB slot 4 (PID: 238401) at time 10:9999999
+OSS: Receiving message from worker 238401 at time 10:9999999
+OSS: Worker 238401 is planning to terminate.
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 10:72499999
+OSS: Receiving message from worker 238402 at time 10:72499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 10:134999999
+OSS: Receiving message from worker 238403 at time 10:134999999
+
+OSS PID:238396 SysClockS: 10 SysclockNano: 134999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	3
+1	1	238403	9	497499999	3
+2	1	238404	9	709999999	1
+3	1	238405	9	959999999	0
+4	0	238401	1	9999999	36
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 10:197499999
+OSS: Receiving message from worker 238404 at time 10:197499999
+OSS: Launched child 238406 into PCB slot 4 at 10s 197499999ns.
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 10:247499999
+OSS: Receiving message from worker 238405 at time 10:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 10:297499999
+OSS: Receiving message from worker 238406 at time 10:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 10:347499999
+OSS: Receiving message from worker 238402 at time 10:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 10:397499999
+OSS: Receiving message from worker 238403 at time 10:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 10:447499999
+OSS: Receiving message from worker 238404 at time 10:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 10:497499999
+OSS: Receiving message from worker 238405 at time 10:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 10:547499999
+OSS: Receiving message from worker 238406 at time 10:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 10:597499999
+OSS: Receiving message from worker 238402 at time 10:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 10:647499999
+OSS: Receiving message from worker 238403 at time 10:647499999
+
+OSS PID:238396 SysClockS: 10 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	5
+1	1	238403	9	497499999	5
+2	1	238404	9	709999999	3
+3	1	238405	9	959999999	2
+4	1	238406	10	197499999	2
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 10:697499999
+OSS: Receiving message from worker 238404 at time 10:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 10:747499999
+OSS: Receiving message from worker 238405 at time 10:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 10:797499999
+OSS: Receiving message from worker 238406 at time 10:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 10:847499999
+OSS: Receiving message from worker 238402 at time 10:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 10:897499999
+OSS: Receiving message from worker 238403 at time 10:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 10:947499999
+OSS: Receiving message from worker 238404 at time 10:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 10:997499999
+OSS: Receiving message from worker 238405 at time 10:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 11:47499999
+OSS: Receiving message from worker 238406 at time 11:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 11:97499999
+OSS: Receiving message from worker 238402 at time 11:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 11:147499999
+OSS: Receiving message from worker 238403 at time 11:147499999
+
+OSS PID:238396 SysClockS: 11 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	7
+1	1	238403	9	497499999	7
+2	1	238404	9	709999999	5
+3	1	238405	9	959999999	4
+4	1	238406	10	197499999	4
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 11:197499999
+OSS: Receiving message from worker 238404 at time 11:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 11:247499999
+OSS: Receiving message from worker 238405 at time 11:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 11:297499999
+OSS: Receiving message from worker 238406 at time 11:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 11:347499999
+OSS: Receiving message from worker 238402 at time 11:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 11:397499999
+OSS: Receiving message from worker 238403 at time 11:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 11:447499999
+OSS: Receiving message from worker 238404 at time 11:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 11:497499999
+OSS: Receiving message from worker 238405 at time 11:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 11:547499999
+OSS: Receiving message from worker 238406 at time 11:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 11:597499999
+OSS: Receiving message from worker 238402 at time 11:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 11:647499999
+OSS: Receiving message from worker 238403 at time 11:647499999
+
+OSS PID:238396 SysClockS: 11 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	9
+1	1	238403	9	497499999	9
+2	1	238404	9	709999999	7
+3	1	238405	9	959999999	6
+4	1	238406	10	197499999	6
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 11:697499999
+OSS: Receiving message from worker 238404 at time 11:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 11:747499999
+OSS: Receiving message from worker 238405 at time 11:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 11:797499999
+OSS: Receiving message from worker 238406 at time 11:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 11:847499999
+OSS: Receiving message from worker 238402 at time 11:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 11:897499999
+OSS: Receiving message from worker 238403 at time 11:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 11:947499999
+OSS: Receiving message from worker 238404 at time 11:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 11:997499999
+OSS: Receiving message from worker 238405 at time 11:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 12:47499999
+OSS: Receiving message from worker 238406 at time 12:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 12:97499999
+OSS: Receiving message from worker 238402 at time 12:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 12:147499999
+OSS: Receiving message from worker 238403 at time 12:147499999
+
+OSS PID:238396 SysClockS: 12 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	11
+1	1	238403	9	497499999	11
+2	1	238404	9	709999999	9
+3	1	238405	9	959999999	8
+4	1	238406	10	197499999	8
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 12:197499999
+OSS: Receiving message from worker 238404 at time 12:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 12:247499999
+OSS: Receiving message from worker 238405 at time 12:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 12:297499999
+OSS: Receiving message from worker 238406 at time 12:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 12:347499999
+OSS: Receiving message from worker 238402 at time 12:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 12:397499999
+OSS: Receiving message from worker 238403 at time 12:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 12:447499999
+OSS: Receiving message from worker 238404 at time 12:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 12:497499999
+OSS: Receiving message from worker 238405 at time 12:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 12:547499999
+OSS: Receiving message from worker 238406 at time 12:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 12:597499999
+OSS: Receiving message from worker 238402 at time 12:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 12:647499999
+OSS: Receiving message from worker 238403 at time 12:647499999
+
+OSS PID:238396 SysClockS: 12 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	13
+1	1	238403	9	497499999	13
+2	1	238404	9	709999999	11
+3	1	238405	9	959999999	10
+4	1	238406	10	197499999	10
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 12:697499999
+OSS: Receiving message from worker 238404 at time 12:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 12:747499999
+OSS: Receiving message from worker 238405 at time 12:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 12:797499999
+OSS: Receiving message from worker 238406 at time 12:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 12:847499999
+OSS: Receiving message from worker 238402 at time 12:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 12:897499999
+OSS: Receiving message from worker 238403 at time 12:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 12:947499999
+OSS: Receiving message from worker 238404 at time 12:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 12:997499999
+OSS: Receiving message from worker 238405 at time 12:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 13:47499999
+OSS: Receiving message from worker 238406 at time 13:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 13:97499999
+OSS: Receiving message from worker 238402 at time 13:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 13:147499999
+OSS: Receiving message from worker 238403 at time 13:147499999
+
+OSS PID:238396 SysClockS: 13 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	15
+1	1	238403	9	497499999	15
+2	1	238404	9	709999999	13
+3	1	238405	9	959999999	12
+4	1	238406	10	197499999	12
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 13:197499999
+OSS: Receiving message from worker 238404 at time 13:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 13:247499999
+OSS: Receiving message from worker 238405 at time 13:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 13:297499999
+OSS: Receiving message from worker 238406 at time 13:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 13:347499999
+OSS: Receiving message from worker 238402 at time 13:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 13:397499999
+OSS: Receiving message from worker 238403 at time 13:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 13:447499999
+OSS: Receiving message from worker 238404 at time 13:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 13:497499999
+OSS: Receiving message from worker 238405 at time 13:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 13:547499999
+OSS: Receiving message from worker 238406 at time 13:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 13:597499999
+OSS: Receiving message from worker 238402 at time 13:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 13:647499999
+OSS: Receiving message from worker 238403 at time 13:647499999
+
+OSS PID:238396 SysClockS: 13 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	17
+1	1	238403	9	497499999	17
+2	1	238404	9	709999999	15
+3	1	238405	9	959999999	14
+4	1	238406	10	197499999	14
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 13:697499999
+OSS: Receiving message from worker 238404 at time 13:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 13:747499999
+OSS: Receiving message from worker 238405 at time 13:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 13:797499999
+OSS: Receiving message from worker 238406 at time 13:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 13:847499999
+OSS: Receiving message from worker 238402 at time 13:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 13:897499999
+OSS: Receiving message from worker 238403 at time 13:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 13:947499999
+OSS: Receiving message from worker 238404 at time 13:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 13:997499999
+OSS: Receiving message from worker 238405 at time 13:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 14:47499999
+OSS: Receiving message from worker 238406 at time 14:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 14:97499999
+OSS: Receiving message from worker 238402 at time 14:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 14:147499999
+OSS: Receiving message from worker 238403 at time 14:147499999
+
+OSS PID:238396 SysClockS: 14 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	19
+1	1	238403	9	497499999	19
+2	1	238404	9	709999999	17
+3	1	238405	9	959999999	16
+4	1	238406	10	197499999	16
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 14:197499999
+OSS: Receiving message from worker 238404 at time 14:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 14:247499999
+OSS: Receiving message from worker 238405 at time 14:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 14:297499999
+OSS: Receiving message from worker 238406 at time 14:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 14:347499999
+OSS: Receiving message from worker 238402 at time 14:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 14:397499999
+OSS: Receiving message from worker 238403 at time 14:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 14:447499999
+OSS: Receiving message from worker 238404 at time 14:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 14:497499999
+OSS: Receiving message from worker 238405 at time 14:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 14:547499999
+OSS: Receiving message from worker 238406 at time 14:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 14:597499999
+OSS: Receiving message from worker 238402 at time 14:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 14:647499999
+OSS: Receiving message from worker 238403 at time 14:647499999
+
+OSS PID:238396 SysClockS: 14 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	21
+1	1	238403	9	497499999	21
+2	1	238404	9	709999999	19
+3	1	238405	9	959999999	18
+4	1	238406	10	197499999	18
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 14:697499999
+OSS: Receiving message from worker 238404 at time 14:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 14:747499999
+OSS: Receiving message from worker 238405 at time 14:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 14:797499999
+OSS: Receiving message from worker 238406 at time 14:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 14:847499999
+OSS: Receiving message from worker 238402 at time 14:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 14:897499999
+OSS: Receiving message from worker 238403 at time 14:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 14:947499999
+OSS: Receiving message from worker 238404 at time 14:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 14:997499999
+OSS: Receiving message from worker 238405 at time 14:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 15:47499999
+OSS: Receiving message from worker 238406 at time 15:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 15:97499999
+OSS: Receiving message from worker 238402 at time 15:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 15:147499999
+OSS: Receiving message from worker 238403 at time 15:147499999
+
+OSS PID:238396 SysClockS: 15 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	23
+1	1	238403	9	497499999	23
+2	1	238404	9	709999999	21
+3	1	238405	9	959999999	20
+4	1	238406	10	197499999	20
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 15:197499999
+OSS: Receiving message from worker 238404 at time 15:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 15:247499999
+OSS: Receiving message from worker 238405 at time 15:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 15:297499999
+OSS: Receiving message from worker 238406 at time 15:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 15:347499999
+OSS: Receiving message from worker 238402 at time 15:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 15:397499999
+OSS: Receiving message from worker 238403 at time 15:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 15:447499999
+OSS: Receiving message from worker 238404 at time 15:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 15:497499999
+OSS: Receiving message from worker 238405 at time 15:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 15:547499999
+OSS: Receiving message from worker 238406 at time 15:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 15:597499999
+OSS: Receiving message from worker 238402 at time 15:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 15:647499999
+OSS: Receiving message from worker 238403 at time 15:647499999
+
+OSS PID:238396 SysClockS: 15 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	25
+1	1	238403	9	497499999	25
+2	1	238404	9	709999999	23
+3	1	238405	9	959999999	22
+4	1	238406	10	197499999	22
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 15:697499999
+OSS: Receiving message from worker 238404 at time 15:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 15:747499999
+OSS: Receiving message from worker 238405 at time 15:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 15:797499999
+OSS: Receiving message from worker 238406 at time 15:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 15:847499999
+OSS: Receiving message from worker 238402 at time 15:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 15:897499999
+OSS: Receiving message from worker 238403 at time 15:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 15:947499999
+OSS: Receiving message from worker 238404 at time 15:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 15:997499999
+OSS: Receiving message from worker 238405 at time 15:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 16:47499999
+OSS: Receiving message from worker 238406 at time 16:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 16:97499999
+OSS: Receiving message from worker 238402 at time 16:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 16:147499999
+OSS: Receiving message from worker 238403 at time 16:147499999
+
+OSS PID:238396 SysClockS: 16 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	27
+1	1	238403	9	497499999	27
+2	1	238404	9	709999999	25
+3	1	238405	9	959999999	24
+4	1	238406	10	197499999	24
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 16:197499999
+OSS: Receiving message from worker 238404 at time 16:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 16:247499999
+OSS: Receiving message from worker 238405 at time 16:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 16:297499999
+OSS: Receiving message from worker 238406 at time 16:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 16:347499999
+OSS: Receiving message from worker 238402 at time 16:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 16:397499999
+OSS: Receiving message from worker 238403 at time 16:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 16:447499999
+OSS: Receiving message from worker 238404 at time 16:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 16:497499999
+OSS: Receiving message from worker 238405 at time 16:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 16:547499999
+OSS: Receiving message from worker 238406 at time 16:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 16:597499999
+OSS: Receiving message from worker 238402 at time 16:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 16:647499999
+OSS: Receiving message from worker 238403 at time 16:647499999
+
+OSS PID:238396 SysClockS: 16 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	29
+1	1	238403	9	497499999	29
+2	1	238404	9	709999999	27
+3	1	238405	9	959999999	26
+4	1	238406	10	197499999	26
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 16:697499999
+OSS: Receiving message from worker 238404 at time 16:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 16:747499999
+OSS: Receiving message from worker 238405 at time 16:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 16:797499999
+OSS: Receiving message from worker 238406 at time 16:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 16:847499999
+OSS: Receiving message from worker 238402 at time 16:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 16:897499999
+OSS: Receiving message from worker 238403 at time 16:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 16:947499999
+OSS: Receiving message from worker 238404 at time 16:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 16:997499999
+OSS: Receiving message from worker 238405 at time 16:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 17:47499999
+OSS: Receiving message from worker 238406 at time 17:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 17:97499999
+OSS: Receiving message from worker 238402 at time 17:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 17:147499999
+OSS: Receiving message from worker 238403 at time 17:147499999
+
+OSS PID:238396 SysClockS: 17 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	31
+1	1	238403	9	497499999	31
+2	1	238404	9	709999999	29
+3	1	238405	9	959999999	28
+4	1	238406	10	197499999	28
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 17:197499999
+OSS: Receiving message from worker 238404 at time 17:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 17:247499999
+OSS: Receiving message from worker 238405 at time 17:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 17:297499999
+OSS: Receiving message from worker 238406 at time 17:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 17:347499999
+OSS: Receiving message from worker 238402 at time 17:347499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 17:397499999
+OSS: Receiving message from worker 238403 at time 17:397499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 17:447499999
+OSS: Receiving message from worker 238404 at time 17:447499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 17:497499999
+OSS: Receiving message from worker 238405 at time 17:497499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 17:547499999
+OSS: Receiving message from worker 238406 at time 17:547499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 17:597499999
+OSS: Receiving message from worker 238402 at time 17:597499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 17:647499999
+OSS: Receiving message from worker 238403 at time 17:647499999
+
+OSS PID:238396 SysClockS: 17 SysclockNano: 647499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	33
+1	1	238403	9	497499999	33
+2	1	238404	9	709999999	31
+3	1	238405	9	959999999	30
+4	1	238406	10	197499999	30
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 17:697499999
+OSS: Receiving message from worker 238404 at time 17:697499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 17:747499999
+OSS: Receiving message from worker 238405 at time 17:747499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 17:797499999
+OSS: Receiving message from worker 238406 at time 17:797499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 17:847499999
+OSS: Receiving message from worker 238402 at time 17:847499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 17:897499999
+OSS: Receiving message from worker 238403 at time 17:897499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 17:947499999
+OSS: Receiving message from worker 238404 at time 17:947499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 17:997499999
+OSS: Receiving message from worker 238405 at time 17:997499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 18:47499999
+OSS: Receiving message from worker 238406 at time 18:47499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 18:97499999
+OSS: Receiving message from worker 238402 at time 18:97499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 18:147499999
+OSS: Receiving message from worker 238403 at time 18:147499999
+
+OSS PID:238396 SysClockS: 18 SysclockNano: 147499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238402	9	259999999	35
+1	1	238403	9	497499999	35
+2	1	238404	9	709999999	33
+3	1	238405	9	959999999	32
+4	1	238406	10	197499999	32
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 18:197499999
+OSS: Receiving message from worker 238404 at time 18:197499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 18:247499999
+OSS: Receiving message from worker 238405 at time 18:247499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 18:297499999
+OSS: Receiving message from worker 238406 at time 18:297499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238402) at time 18:347499999
+OSS: Receiving message from worker 238402 at time 18:347499999
+OSS: Worker 238402 is planning to terminate.
+OSS: Launched child 238407 into PCB slot 0 at 18s 347499999ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238403) at time 18:397499999
+OSS: Receiving message from worker 238403 at time 18:397499999
+OSS: Worker 238403 is planning to terminate.
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 18:459999999
+OSS: Receiving message from worker 238404 at time 18:459999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 18:522499999
+OSS: Receiving message from worker 238405 at time 18:522499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 18:584999999
+OSS: Receiving message from worker 238406 at time 18:584999999
+OSS: Launched child 238408 into PCB slot 1 at 18s 584999999ns.
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 18:634999999
+OSS: Receiving message from worker 238407 at time 18:634999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 18:684999999
+OSS: Receiving message from worker 238408 at time 18:684999999
+
+OSS PID:238396 SysClockS: 18 SysclockNano: 684999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	1
+1	1	238408	18	584999999	1
+2	1	238404	9	709999999	35
+3	1	238405	9	959999999	34
+4	1	238406	10	197499999	34
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238404) at time 18:734999999
+OSS: Receiving message from worker 238404 at time 18:734999999
+OSS: Worker 238404 is planning to terminate.
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 18:797499999
+OSS: Receiving message from worker 238405 at time 18:797499999
+OSS: Launched child 238409 into PCB slot 2 at 18s 797499999ns.
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 18:847499999
+OSS: Receiving message from worker 238406 at time 18:847499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 18:897499999
+OSS: Receiving message from worker 238407 at time 18:897499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 18:947499999
+OSS: Receiving message from worker 238408 at time 18:947499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 18:997499999
+OSS: Receiving message from worker 238409 at time 18:997499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238405) at time 19:47499999
+OSS: Receiving message from worker 238405 at time 19:47499999
+OSS: Worker 238405 is planning to terminate.
+OSS: Launched child 238410 into PCB slot 3 at 19s 47499999ns.
+OSS: Sending message to worker in PCB slot 4 (PID: 238406) at time 19:97499999
+OSS: Receiving message from worker 238406 at time 19:97499999
+OSS: Worker 238406 is planning to terminate.
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 19:159999999
+OSS: Receiving message from worker 238407 at time 19:159999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 19:222499999
+OSS: Receiving message from worker 238408 at time 19:222499999
+
+OSS PID:238396 SysClockS: 19 SysclockNano: 222499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	3
+1	1	238408	18	584999999	3
+2	1	238409	18	797499999	1
+3	1	238410	19	47499999	0
+4	0	238406	10	197499999	36
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 19:284999999
+OSS: Receiving message from worker 238409 at time 19:284999999
+OSS: Launched child 238411 into PCB slot 4 at 19s 284999999ns.
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 19:334999999
+OSS: Receiving message from worker 238410 at time 19:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 19:384999999
+OSS: Receiving message from worker 238411 at time 19:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 19:434999999
+OSS: Receiving message from worker 238407 at time 19:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 19:484999999
+OSS: Receiving message from worker 238408 at time 19:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 19:534999999
+OSS: Receiving message from worker 238409 at time 19:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 19:584999999
+OSS: Receiving message from worker 238410 at time 19:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 19:634999999
+OSS: Receiving message from worker 238411 at time 19:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 19:684999999
+OSS: Receiving message from worker 238407 at time 19:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 19:734999999
+OSS: Receiving message from worker 238408 at time 19:734999999
+
+OSS PID:238396 SysClockS: 19 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	5
+1	1	238408	18	584999999	5
+2	1	238409	18	797499999	3
+3	1	238410	19	47499999	2
+4	1	238411	19	284999999	2
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 19:784999999
+OSS: Receiving message from worker 238409 at time 19:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 19:834999999
+OSS: Receiving message from worker 238410 at time 19:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 19:884999999
+OSS: Receiving message from worker 238411 at time 19:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 19:934999999
+OSS: Receiving message from worker 238407 at time 19:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 19:984999999
+OSS: Receiving message from worker 238408 at time 19:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 20:34999999
+OSS: Receiving message from worker 238409 at time 20:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 20:84999999
+OSS: Receiving message from worker 238410 at time 20:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 20:134999999
+OSS: Receiving message from worker 238411 at time 20:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 20:184999999
+OSS: Receiving message from worker 238407 at time 20:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 20:234999999
+OSS: Receiving message from worker 238408 at time 20:234999999
+
+OSS PID:238396 SysClockS: 20 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	7
+1	1	238408	18	584999999	7
+2	1	238409	18	797499999	5
+3	1	238410	19	47499999	4
+4	1	238411	19	284999999	4
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 20:284999999
+OSS: Receiving message from worker 238409 at time 20:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 20:334999999
+OSS: Receiving message from worker 238410 at time 20:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 20:384999999
+OSS: Receiving message from worker 238411 at time 20:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 20:434999999
+OSS: Receiving message from worker 238407 at time 20:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 20:484999999
+OSS: Receiving message from worker 238408 at time 20:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 20:534999999
+OSS: Receiving message from worker 238409 at time 20:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 20:584999999
+OSS: Receiving message from worker 238410 at time 20:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 20:634999999
+OSS: Receiving message from worker 238411 at time 20:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 20:684999999
+OSS: Receiving message from worker 238407 at time 20:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 20:734999999
+OSS: Receiving message from worker 238408 at time 20:734999999
+
+OSS PID:238396 SysClockS: 20 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	9
+1	1	238408	18	584999999	9
+2	1	238409	18	797499999	7
+3	1	238410	19	47499999	6
+4	1	238411	19	284999999	6
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 20:784999999
+OSS: Receiving message from worker 238409 at time 20:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 20:834999999
+OSS: Receiving message from worker 238410 at time 20:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 20:884999999
+OSS: Receiving message from worker 238411 at time 20:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 20:934999999
+OSS: Receiving message from worker 238407 at time 20:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 20:984999999
+OSS: Receiving message from worker 238408 at time 20:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 21:34999999
+OSS: Receiving message from worker 238409 at time 21:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 21:84999999
+OSS: Receiving message from worker 238410 at time 21:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 21:134999999
+OSS: Receiving message from worker 238411 at time 21:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 21:184999999
+OSS: Receiving message from worker 238407 at time 21:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 21:234999999
+OSS: Receiving message from worker 238408 at time 21:234999999
+
+OSS PID:238396 SysClockS: 21 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	11
+1	1	238408	18	584999999	11
+2	1	238409	18	797499999	9
+3	1	238410	19	47499999	8
+4	1	238411	19	284999999	8
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 21:284999999
+OSS: Receiving message from worker 238409 at time 21:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 21:334999999
+OSS: Receiving message from worker 238410 at time 21:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 21:384999999
+OSS: Receiving message from worker 238411 at time 21:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 21:434999999
+OSS: Receiving message from worker 238407 at time 21:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 21:484999999
+OSS: Receiving message from worker 238408 at time 21:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 21:534999999
+OSS: Receiving message from worker 238409 at time 21:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 21:584999999
+OSS: Receiving message from worker 238410 at time 21:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 21:634999999
+OSS: Receiving message from worker 238411 at time 21:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 21:684999999
+OSS: Receiving message from worker 238407 at time 21:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 21:734999999
+OSS: Receiving message from worker 238408 at time 21:734999999
+
+OSS PID:238396 SysClockS: 21 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	13
+1	1	238408	18	584999999	13
+2	1	238409	18	797499999	11
+3	1	238410	19	47499999	10
+4	1	238411	19	284999999	10
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 21:784999999
+OSS: Receiving message from worker 238409 at time 21:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 21:834999999
+OSS: Receiving message from worker 238410 at time 21:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 21:884999999
+OSS: Receiving message from worker 238411 at time 21:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 21:934999999
+OSS: Receiving message from worker 238407 at time 21:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 21:984999999
+OSS: Receiving message from worker 238408 at time 21:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 22:34999999
+OSS: Receiving message from worker 238409 at time 22:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 22:84999999
+OSS: Receiving message from worker 238410 at time 22:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 22:134999999
+OSS: Receiving message from worker 238411 at time 22:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 22:184999999
+OSS: Receiving message from worker 238407 at time 22:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 22:234999999
+OSS: Receiving message from worker 238408 at time 22:234999999
+
+OSS PID:238396 SysClockS: 22 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	15
+1	1	238408	18	584999999	15
+2	1	238409	18	797499999	13
+3	1	238410	19	47499999	12
+4	1	238411	19	284999999	12
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 22:284999999
+OSS: Receiving message from worker 238409 at time 22:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 22:334999999
+OSS: Receiving message from worker 238410 at time 22:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 22:384999999
+OSS: Receiving message from worker 238411 at time 22:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 22:434999999
+OSS: Receiving message from worker 238407 at time 22:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 22:484999999
+OSS: Receiving message from worker 238408 at time 22:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 22:534999999
+OSS: Receiving message from worker 238409 at time 22:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 22:584999999
+OSS: Receiving message from worker 238410 at time 22:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 22:634999999
+OSS: Receiving message from worker 238411 at time 22:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 22:684999999
+OSS: Receiving message from worker 238407 at time 22:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 22:734999999
+OSS: Receiving message from worker 238408 at time 22:734999999
+
+OSS PID:238396 SysClockS: 22 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	17
+1	1	238408	18	584999999	17
+2	1	238409	18	797499999	15
+3	1	238410	19	47499999	14
+4	1	238411	19	284999999	14
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 22:784999999
+OSS: Receiving message from worker 238409 at time 22:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 22:834999999
+OSS: Receiving message from worker 238410 at time 22:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 22:884999999
+OSS: Receiving message from worker 238411 at time 22:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 22:934999999
+OSS: Receiving message from worker 238407 at time 22:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 22:984999999
+OSS: Receiving message from worker 238408 at time 22:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 23:34999999
+OSS: Receiving message from worker 238409 at time 23:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 23:84999999
+OSS: Receiving message from worker 238410 at time 23:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 23:134999999
+OSS: Receiving message from worker 238411 at time 23:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 23:184999999
+OSS: Receiving message from worker 238407 at time 23:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 23:234999999
+OSS: Receiving message from worker 238408 at time 23:234999999
+
+OSS PID:238396 SysClockS: 23 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	19
+1	1	238408	18	584999999	19
+2	1	238409	18	797499999	17
+3	1	238410	19	47499999	16
+4	1	238411	19	284999999	16
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 23:284999999
+OSS: Receiving message from worker 238409 at time 23:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 23:334999999
+OSS: Receiving message from worker 238410 at time 23:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 23:384999999
+OSS: Receiving message from worker 238411 at time 23:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 23:434999999
+OSS: Receiving message from worker 238407 at time 23:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 23:484999999
+OSS: Receiving message from worker 238408 at time 23:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 23:534999999
+OSS: Receiving message from worker 238409 at time 23:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 23:584999999
+OSS: Receiving message from worker 238410 at time 23:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 23:634999999
+OSS: Receiving message from worker 238411 at time 23:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 23:684999999
+OSS: Receiving message from worker 238407 at time 23:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 23:734999999
+OSS: Receiving message from worker 238408 at time 23:734999999
+
+OSS PID:238396 SysClockS: 23 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	21
+1	1	238408	18	584999999	21
+2	1	238409	18	797499999	19
+3	1	238410	19	47499999	18
+4	1	238411	19	284999999	18
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 23:784999999
+OSS: Receiving message from worker 238409 at time 23:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 23:834999999
+OSS: Receiving message from worker 238410 at time 23:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 23:884999999
+OSS: Receiving message from worker 238411 at time 23:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 23:934999999
+OSS: Receiving message from worker 238407 at time 23:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 23:984999999
+OSS: Receiving message from worker 238408 at time 23:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 24:34999999
+OSS: Receiving message from worker 238409 at time 24:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 24:84999999
+OSS: Receiving message from worker 238410 at time 24:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 24:134999999
+OSS: Receiving message from worker 238411 at time 24:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 24:184999999
+OSS: Receiving message from worker 238407 at time 24:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 24:234999999
+OSS: Receiving message from worker 238408 at time 24:234999999
+
+OSS PID:238396 SysClockS: 24 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	23
+1	1	238408	18	584999999	23
+2	1	238409	18	797499999	21
+3	1	238410	19	47499999	20
+4	1	238411	19	284999999	20
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 24:284999999
+OSS: Receiving message from worker 238409 at time 24:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 24:334999999
+OSS: Receiving message from worker 238410 at time 24:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 24:384999999
+OSS: Receiving message from worker 238411 at time 24:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 24:434999999
+OSS: Receiving message from worker 238407 at time 24:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 24:484999999
+OSS: Receiving message from worker 238408 at time 24:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 24:534999999
+OSS: Receiving message from worker 238409 at time 24:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 24:584999999
+OSS: Receiving message from worker 238410 at time 24:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 24:634999999
+OSS: Receiving message from worker 238411 at time 24:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 24:684999999
+OSS: Receiving message from worker 238407 at time 24:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 24:734999999
+OSS: Receiving message from worker 238408 at time 24:734999999
+
+OSS PID:238396 SysClockS: 24 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	25
+1	1	238408	18	584999999	25
+2	1	238409	18	797499999	23
+3	1	238410	19	47499999	22
+4	1	238411	19	284999999	22
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 24:784999999
+OSS: Receiving message from worker 238409 at time 24:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 24:834999999
+OSS: Receiving message from worker 238410 at time 24:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 24:884999999
+OSS: Receiving message from worker 238411 at time 24:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 24:934999999
+OSS: Receiving message from worker 238407 at time 24:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 24:984999999
+OSS: Receiving message from worker 238408 at time 24:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 25:34999999
+OSS: Receiving message from worker 238409 at time 25:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 25:84999999
+OSS: Receiving message from worker 238410 at time 25:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 25:134999999
+OSS: Receiving message from worker 238411 at time 25:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 25:184999999
+OSS: Receiving message from worker 238407 at time 25:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 25:234999999
+OSS: Receiving message from worker 238408 at time 25:234999999
+
+OSS PID:238396 SysClockS: 25 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	27
+1	1	238408	18	584999999	27
+2	1	238409	18	797499999	25
+3	1	238410	19	47499999	24
+4	1	238411	19	284999999	24
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 25:284999999
+OSS: Receiving message from worker 238409 at time 25:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 25:334999999
+OSS: Receiving message from worker 238410 at time 25:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 25:384999999
+OSS: Receiving message from worker 238411 at time 25:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 25:434999999
+OSS: Receiving message from worker 238407 at time 25:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 25:484999999
+OSS: Receiving message from worker 238408 at time 25:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 25:534999999
+OSS: Receiving message from worker 238409 at time 25:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 25:584999999
+OSS: Receiving message from worker 238410 at time 25:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 25:634999999
+OSS: Receiving message from worker 238411 at time 25:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 25:684999999
+OSS: Receiving message from worker 238407 at time 25:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 25:734999999
+OSS: Receiving message from worker 238408 at time 25:734999999
+
+OSS PID:238396 SysClockS: 25 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	29
+1	1	238408	18	584999999	29
+2	1	238409	18	797499999	27
+3	1	238410	19	47499999	26
+4	1	238411	19	284999999	26
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 25:784999999
+OSS: Receiving message from worker 238409 at time 25:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 25:834999999
+OSS: Receiving message from worker 238410 at time 25:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 25:884999999
+OSS: Receiving message from worker 238411 at time 25:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 25:934999999
+OSS: Receiving message from worker 238407 at time 25:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 25:984999999
+OSS: Receiving message from worker 238408 at time 25:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 26:34999999
+OSS: Receiving message from worker 238409 at time 26:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 26:84999999
+OSS: Receiving message from worker 238410 at time 26:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 26:134999999
+OSS: Receiving message from worker 238411 at time 26:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 26:184999999
+OSS: Receiving message from worker 238407 at time 26:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 26:234999999
+OSS: Receiving message from worker 238408 at time 26:234999999
+
+OSS PID:238396 SysClockS: 26 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	31
+1	1	238408	18	584999999	31
+2	1	238409	18	797499999	29
+3	1	238410	19	47499999	28
+4	1	238411	19	284999999	28
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 26:284999999
+OSS: Receiving message from worker 238409 at time 26:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 26:334999999
+OSS: Receiving message from worker 238410 at time 26:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 26:384999999
+OSS: Receiving message from worker 238411 at time 26:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 26:434999999
+OSS: Receiving message from worker 238407 at time 26:434999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 26:484999999
+OSS: Receiving message from worker 238408 at time 26:484999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 26:534999999
+OSS: Receiving message from worker 238409 at time 26:534999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 26:584999999
+OSS: Receiving message from worker 238410 at time 26:584999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 26:634999999
+OSS: Receiving message from worker 238411 at time 26:634999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 26:684999999
+OSS: Receiving message from worker 238407 at time 26:684999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 26:734999999
+OSS: Receiving message from worker 238408 at time 26:734999999
+
+OSS PID:238396 SysClockS: 26 SysclockNano: 734999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	33
+1	1	238408	18	584999999	33
+2	1	238409	18	797499999	31
+3	1	238410	19	47499999	30
+4	1	238411	19	284999999	30
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 26:784999999
+OSS: Receiving message from worker 238409 at time 26:784999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 26:834999999
+OSS: Receiving message from worker 238410 at time 26:834999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 26:884999999
+OSS: Receiving message from worker 238411 at time 26:884999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 26:934999999
+OSS: Receiving message from worker 238407 at time 26:934999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 26:984999999
+OSS: Receiving message from worker 238408 at time 26:984999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 27:34999999
+OSS: Receiving message from worker 238409 at time 27:34999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 27:84999999
+OSS: Receiving message from worker 238410 at time 27:84999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 27:134999999
+OSS: Receiving message from worker 238411 at time 27:134999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 27:184999999
+OSS: Receiving message from worker 238407 at time 27:184999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 27:234999999
+OSS: Receiving message from worker 238408 at time 27:234999999
+
+OSS PID:238396 SysClockS: 27 SysclockNano: 234999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238407	18	347499999	35
+1	1	238408	18	584999999	35
+2	1	238409	18	797499999	33
+3	1	238410	19	47499999	32
+4	1	238411	19	284999999	32
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 27:284999999
+OSS: Receiving message from worker 238409 at time 27:284999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 27:334999999
+OSS: Receiving message from worker 238410 at time 27:334999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 27:384999999
+OSS: Receiving message from worker 238411 at time 27:384999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238407) at time 27:434999999
+OSS: Receiving message from worker 238407 at time 27:434999999
+OSS: Worker 238407 is planning to terminate.
+OSS: Launched child 238412 into PCB slot 0 at 27s 434999999ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 238408) at time 27:484999999
+OSS: Receiving message from worker 238408 at time 27:484999999
+OSS: Worker 238408 is planning to terminate.
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 27:547499999
+OSS: Receiving message from worker 238409 at time 27:547499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 27:609999999
+OSS: Receiving message from worker 238410 at time 27:609999999
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 27:672499999
+OSS: Receiving message from worker 238411 at time 27:672499999
+OSS: Launched child 238413 into PCB slot 1 at 27s 672499999ns.
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 27:722499999
+OSS: Receiving message from worker 238412 at time 27:722499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 27:772499999
+OSS: Receiving message from worker 238413 at time 27:772499999
+
+OSS PID:238396 SysClockS: 27 SysclockNano: 772499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	1
+1	1	238413	27	672499999	1
+2	1	238409	18	797499999	35
+3	1	238410	19	47499999	34
+4	1	238411	19	284999999	34
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238409) at time 27:822499999
+OSS: Receiving message from worker 238409 at time 27:822499999
+OSS: Worker 238409 is planning to terminate.
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 27:884999999
+OSS: Receiving message from worker 238410 at time 27:884999999
+OSS: Launched child 238414 into PCB slot 2 at 27s 884999999ns.
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 27:934999999
+OSS: Receiving message from worker 238411 at time 27:934999999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 27:984999999
+OSS: Receiving message from worker 238412 at time 27:984999999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 28:34999999
+OSS: Receiving message from worker 238413 at time 28:34999999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 28:84999999
+OSS: Receiving message from worker 238414 at time 28:84999999
+OSS: Sending message to worker in PCB slot 3 (PID: 238410) at time 28:134999999
+OSS: Receiving message from worker 238410 at time 28:134999999
+OSS: Worker 238410 is planning to terminate.
+OSS: Launched child 238415 into PCB slot 3 at 28s 134999999ns.
+OSS: Sending message to worker in PCB slot 4 (PID: 238411) at time 28:184999999
+OSS: Receiving message from worker 238411 at time 28:184999999
+OSS: Worker 238411 is planning to terminate.
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 28:247499999
+OSS: Receiving message from worker 238412 at time 28:247499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 28:309999999
+OSS: Receiving message from worker 238413 at time 28:309999999
+
+OSS PID:238396 SysClockS: 28 SysclockNano: 309999999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	3
+1	1	238413	27	672499999	3
+2	1	238414	27	884999999	1
+3	1	238415	28	134999999	0
+4	0	238411	19	284999999	36
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 28:372499999
+OSS: Receiving message from worker 238414 at time 28:372499999
+OSS: Launched child 238416 into PCB slot 4 at 28s 372499999ns.
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 28:422499999
+OSS: Receiving message from worker 238415 at time 28:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 28:472499999
+OSS: Receiving message from worker 238416 at time 28:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 28:522499999
+OSS: Receiving message from worker 238412 at time 28:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 28:572499999
+OSS: Receiving message from worker 238413 at time 28:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 28:622499999
+OSS: Receiving message from worker 238414 at time 28:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 28:672499999
+OSS: Receiving message from worker 238415 at time 28:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 28:722499999
+OSS: Receiving message from worker 238416 at time 28:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 28:772499999
+OSS: Receiving message from worker 238412 at time 28:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 28:822499999
+OSS: Receiving message from worker 238413 at time 28:822499999
+
+OSS PID:238396 SysClockS: 28 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	5
+1	1	238413	27	672499999	5
+2	1	238414	27	884999999	3
+3	1	238415	28	134999999	2
+4	1	238416	28	372499999	2
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 28:872499999
+OSS: Receiving message from worker 238414 at time 28:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 28:922499999
+OSS: Receiving message from worker 238415 at time 28:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 28:972499999
+OSS: Receiving message from worker 238416 at time 28:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 29:22499999
+OSS: Receiving message from worker 238412 at time 29:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 29:72499999
+OSS: Receiving message from worker 238413 at time 29:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 29:122499999
+OSS: Receiving message from worker 238414 at time 29:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 29:172499999
+OSS: Receiving message from worker 238415 at time 29:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 29:222499999
+OSS: Receiving message from worker 238416 at time 29:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 29:272499999
+OSS: Receiving message from worker 238412 at time 29:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 29:322499999
+OSS: Receiving message from worker 238413 at time 29:322499999
+
+OSS PID:238396 SysClockS: 29 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	7
+1	1	238413	27	672499999	7
+2	1	238414	27	884999999	5
+3	1	238415	28	134999999	4
+4	1	238416	28	372499999	4
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 29:372499999
+OSS: Receiving message from worker 238414 at time 29:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 29:422499999
+OSS: Receiving message from worker 238415 at time 29:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 29:472499999
+OSS: Receiving message from worker 238416 at time 29:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 29:522499999
+OSS: Receiving message from worker 238412 at time 29:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 29:572499999
+OSS: Receiving message from worker 238413 at time 29:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 29:622499999
+OSS: Receiving message from worker 238414 at time 29:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 29:672499999
+OSS: Receiving message from worker 238415 at time 29:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 29:722499999
+OSS: Receiving message from worker 238416 at time 29:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 29:772499999
+OSS: Receiving message from worker 238412 at time 29:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 29:822499999
+OSS: Receiving message from worker 238413 at time 29:822499999
+
+OSS PID:238396 SysClockS: 29 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	9
+1	1	238413	27	672499999	9
+2	1	238414	27	884999999	7
+3	1	238415	28	134999999	6
+4	1	238416	28	372499999	6
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 29:872499999
+OSS: Receiving message from worker 238414 at time 29:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 29:922499999
+OSS: Receiving message from worker 238415 at time 29:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 29:972499999
+OSS: Receiving message from worker 238416 at time 29:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 30:22499999
+OSS: Receiving message from worker 238412 at time 30:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 30:72499999
+OSS: Receiving message from worker 238413 at time 30:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 30:122499999
+OSS: Receiving message from worker 238414 at time 30:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 30:172499999
+OSS: Receiving message from worker 238415 at time 30:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 30:222499999
+OSS: Receiving message from worker 238416 at time 30:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 30:272499999
+OSS: Receiving message from worker 238412 at time 30:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 30:322499999
+OSS: Receiving message from worker 238413 at time 30:322499999
+
+OSS PID:238396 SysClockS: 30 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	11
+1	1	238413	27	672499999	11
+2	1	238414	27	884999999	9
+3	1	238415	28	134999999	8
+4	1	238416	28	372499999	8
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 30:372499999
+OSS: Receiving message from worker 238414 at time 30:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 30:422499999
+OSS: Receiving message from worker 238415 at time 30:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 30:472499999
+OSS: Receiving message from worker 238416 at time 30:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 30:522499999
+OSS: Receiving message from worker 238412 at time 30:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 30:572499999
+OSS: Receiving message from worker 238413 at time 30:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 30:622499999
+OSS: Receiving message from worker 238414 at time 30:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 30:672499999
+OSS: Receiving message from worker 238415 at time 30:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 30:722499999
+OSS: Receiving message from worker 238416 at time 30:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 30:772499999
+OSS: Receiving message from worker 238412 at time 30:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 30:822499999
+OSS: Receiving message from worker 238413 at time 30:822499999
+
+OSS PID:238396 SysClockS: 30 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	13
+1	1	238413	27	672499999	13
+2	1	238414	27	884999999	11
+3	1	238415	28	134999999	10
+4	1	238416	28	372499999	10
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 30:872499999
+OSS: Receiving message from worker 238414 at time 30:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 30:922499999
+OSS: Receiving message from worker 238415 at time 30:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 30:972499999
+OSS: Receiving message from worker 238416 at time 30:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 31:22499999
+OSS: Receiving message from worker 238412 at time 31:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 31:72499999
+OSS: Receiving message from worker 238413 at time 31:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 31:122499999
+OSS: Receiving message from worker 238414 at time 31:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 31:172499999
+OSS: Receiving message from worker 238415 at time 31:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 31:222499999
+OSS: Receiving message from worker 238416 at time 31:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 31:272499999
+OSS: Receiving message from worker 238412 at time 31:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 31:322499999
+OSS: Receiving message from worker 238413 at time 31:322499999
+
+OSS PID:238396 SysClockS: 31 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	15
+1	1	238413	27	672499999	15
+2	1	238414	27	884999999	13
+3	1	238415	28	134999999	12
+4	1	238416	28	372499999	12
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 31:372499999
+OSS: Receiving message from worker 238414 at time 31:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 31:422499999
+OSS: Receiving message from worker 238415 at time 31:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 31:472499999
+OSS: Receiving message from worker 238416 at time 31:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 31:522499999
+OSS: Receiving message from worker 238412 at time 31:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 31:572499999
+OSS: Receiving message from worker 238413 at time 31:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 31:622499999
+OSS: Receiving message from worker 238414 at time 31:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 31:672499999
+OSS: Receiving message from worker 238415 at time 31:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 31:722499999
+OSS: Receiving message from worker 238416 at time 31:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 31:772499999
+OSS: Receiving message from worker 238412 at time 31:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 31:822499999
+OSS: Receiving message from worker 238413 at time 31:822499999
+
+OSS PID:238396 SysClockS: 31 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	17
+1	1	238413	27	672499999	17
+2	1	238414	27	884999999	15
+3	1	238415	28	134999999	14
+4	1	238416	28	372499999	14
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 31:872499999
+OSS: Receiving message from worker 238414 at time 31:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 31:922499999
+OSS: Receiving message from worker 238415 at time 31:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 31:972499999
+OSS: Receiving message from worker 238416 at time 31:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 32:22499999
+OSS: Receiving message from worker 238412 at time 32:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 32:72499999
+OSS: Receiving message from worker 238413 at time 32:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 32:122499999
+OSS: Receiving message from worker 238414 at time 32:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 32:172499999
+OSS: Receiving message from worker 238415 at time 32:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 32:222499999
+OSS: Receiving message from worker 238416 at time 32:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 32:272499999
+OSS: Receiving message from worker 238412 at time 32:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 32:322499999
+OSS: Receiving message from worker 238413 at time 32:322499999
+
+OSS PID:238396 SysClockS: 32 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	19
+1	1	238413	27	672499999	19
+2	1	238414	27	884999999	17
+3	1	238415	28	134999999	16
+4	1	238416	28	372499999	16
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 32:372499999
+OSS: Receiving message from worker 238414 at time 32:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 32:422499999
+OSS: Receiving message from worker 238415 at time 32:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 32:472499999
+OSS: Receiving message from worker 238416 at time 32:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 32:522499999
+OSS: Receiving message from worker 238412 at time 32:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 32:572499999
+OSS: Receiving message from worker 238413 at time 32:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 32:622499999
+OSS: Receiving message from worker 238414 at time 32:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 32:672499999
+OSS: Receiving message from worker 238415 at time 32:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 32:722499999
+OSS: Receiving message from worker 238416 at time 32:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 32:772499999
+OSS: Receiving message from worker 238412 at time 32:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 32:822499999
+OSS: Receiving message from worker 238413 at time 32:822499999
+
+OSS PID:238396 SysClockS: 32 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	21
+1	1	238413	27	672499999	21
+2	1	238414	27	884999999	19
+3	1	238415	28	134999999	18
+4	1	238416	28	372499999	18
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 32:872499999
+OSS: Receiving message from worker 238414 at time 32:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 32:922499999
+OSS: Receiving message from worker 238415 at time 32:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 32:972499999
+OSS: Receiving message from worker 238416 at time 32:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 33:22499999
+OSS: Receiving message from worker 238412 at time 33:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 33:72499999
+OSS: Receiving message from worker 238413 at time 33:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 33:122499999
+OSS: Receiving message from worker 238414 at time 33:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 33:172499999
+OSS: Receiving message from worker 238415 at time 33:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 33:222499999
+OSS: Receiving message from worker 238416 at time 33:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 33:272499999
+OSS: Receiving message from worker 238412 at time 33:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 33:322499999
+OSS: Receiving message from worker 238413 at time 33:322499999
+
+OSS PID:238396 SysClockS: 33 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	23
+1	1	238413	27	672499999	23
+2	1	238414	27	884999999	21
+3	1	238415	28	134999999	20
+4	1	238416	28	372499999	20
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 33:372499999
+OSS: Receiving message from worker 238414 at time 33:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 33:422499999
+OSS: Receiving message from worker 238415 at time 33:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 33:472499999
+OSS: Receiving message from worker 238416 at time 33:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 33:522499999
+OSS: Receiving message from worker 238412 at time 33:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 33:572499999
+OSS: Receiving message from worker 238413 at time 33:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 33:622499999
+OSS: Receiving message from worker 238414 at time 33:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 33:672499999
+OSS: Receiving message from worker 238415 at time 33:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 33:722499999
+OSS: Receiving message from worker 238416 at time 33:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 33:772499999
+OSS: Receiving message from worker 238412 at time 33:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 33:822499999
+OSS: Receiving message from worker 238413 at time 33:822499999
+
+OSS PID:238396 SysClockS: 33 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	25
+1	1	238413	27	672499999	25
+2	1	238414	27	884999999	23
+3	1	238415	28	134999999	22
+4	1	238416	28	372499999	22
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 33:872499999
+OSS: Receiving message from worker 238414 at time 33:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 33:922499999
+OSS: Receiving message from worker 238415 at time 33:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 33:972499999
+OSS: Receiving message from worker 238416 at time 33:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 34:22499999
+OSS: Receiving message from worker 238412 at time 34:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 34:72499999
+OSS: Receiving message from worker 238413 at time 34:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 34:122499999
+OSS: Receiving message from worker 238414 at time 34:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 34:172499999
+OSS: Receiving message from worker 238415 at time 34:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 34:222499999
+OSS: Receiving message from worker 238416 at time 34:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 34:272499999
+OSS: Receiving message from worker 238412 at time 34:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 34:322499999
+OSS: Receiving message from worker 238413 at time 34:322499999
+
+OSS PID:238396 SysClockS: 34 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	27
+1	1	238413	27	672499999	27
+2	1	238414	27	884999999	25
+3	1	238415	28	134999999	24
+4	1	238416	28	372499999	24
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 34:372499999
+OSS: Receiving message from worker 238414 at time 34:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 34:422499999
+OSS: Receiving message from worker 238415 at time 34:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 34:472499999
+OSS: Receiving message from worker 238416 at time 34:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 34:522499999
+OSS: Receiving message from worker 238412 at time 34:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 34:572499999
+OSS: Receiving message from worker 238413 at time 34:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 34:622499999
+OSS: Receiving message from worker 238414 at time 34:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 34:672499999
+OSS: Receiving message from worker 238415 at time 34:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 34:722499999
+OSS: Receiving message from worker 238416 at time 34:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 34:772499999
+OSS: Receiving message from worker 238412 at time 34:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 34:822499999
+OSS: Receiving message from worker 238413 at time 34:822499999
+
+OSS PID:238396 SysClockS: 34 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	29
+1	1	238413	27	672499999	29
+2	1	238414	27	884999999	27
+3	1	238415	28	134999999	26
+4	1	238416	28	372499999	26
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 34:872499999
+OSS: Receiving message from worker 238414 at time 34:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 34:922499999
+OSS: Receiving message from worker 238415 at time 34:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 34:972499999
+OSS: Receiving message from worker 238416 at time 34:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 35:22499999
+OSS: Receiving message from worker 238412 at time 35:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 35:72499999
+OSS: Receiving message from worker 238413 at time 35:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 35:122499999
+OSS: Receiving message from worker 238414 at time 35:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 35:172499999
+OSS: Receiving message from worker 238415 at time 35:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 35:222499999
+OSS: Receiving message from worker 238416 at time 35:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 35:272499999
+OSS: Receiving message from worker 238412 at time 35:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 35:322499999
+OSS: Receiving message from worker 238413 at time 35:322499999
+
+OSS PID:238396 SysClockS: 35 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	31
+1	1	238413	27	672499999	31
+2	1	238414	27	884999999	29
+3	1	238415	28	134999999	28
+4	1	238416	28	372499999	28
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 35:372499999
+OSS: Receiving message from worker 238414 at time 35:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 35:422499999
+OSS: Receiving message from worker 238415 at time 35:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 35:472499999
+OSS: Receiving message from worker 238416 at time 35:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 35:522499999
+OSS: Receiving message from worker 238412 at time 35:522499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 35:572499999
+OSS: Receiving message from worker 238413 at time 35:572499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 35:622499999
+OSS: Receiving message from worker 238414 at time 35:622499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 35:672499999
+OSS: Receiving message from worker 238415 at time 35:672499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 35:722499999
+OSS: Receiving message from worker 238416 at time 35:722499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 35:772499999
+OSS: Receiving message from worker 238412 at time 35:772499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 35:822499999
+OSS: Receiving message from worker 238413 at time 35:822499999
+
+OSS PID:238396 SysClockS: 35 SysclockNano: 822499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	33
+1	1	238413	27	672499999	33
+2	1	238414	27	884999999	31
+3	1	238415	28	134999999	30
+4	1	238416	28	372499999	30
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 35:872499999
+OSS: Receiving message from worker 238414 at time 35:872499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 35:922499999
+OSS: Receiving message from worker 238415 at time 35:922499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 35:972499999
+OSS: Receiving message from worker 238416 at time 35:972499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 36:22499999
+OSS: Receiving message from worker 238412 at time 36:22499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 36:72499999
+OSS: Receiving message from worker 238413 at time 36:72499999
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 36:122499999
+OSS: Receiving message from worker 238414 at time 36:122499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 36:172499999
+OSS: Receiving message from worker 238415 at time 36:172499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 36:222499999
+OSS: Receiving message from worker 238416 at time 36:222499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 36:272499999
+OSS: Receiving message from worker 238412 at time 36:272499999
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 36:322499999
+OSS: Receiving message from worker 238413 at time 36:322499999
+
+OSS PID:238396 SysClockS: 36 SysclockNano: 322499999
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	238412	27	434999999	35
+1	1	238413	27	672499999	35
+2	1	238414	27	884999999	33
+3	1	238415	28	134999999	32
+4	1	238416	28	372499999	32
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 36:372499999
+OSS: Receiving message from worker 238414 at time 36:372499999
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 36:422499999
+OSS: Receiving message from worker 238415 at time 36:422499999
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 36:472499999
+OSS: Receiving message from worker 238416 at time 36:472499999
+OSS: Sending message to worker in PCB slot 0 (PID: 238412) at time 36:522499999
+OSS: Receiving message from worker 238412 at time 36:522499999
+OSS: Worker 238412 is planning to terminate.
+OSS: Sending message to worker in PCB slot 1 (PID: 238413) at time 36:584999999
+OSS: Receiving message from worker 238413 at time 36:584999999
+OSS: Worker 238413 is planning to terminate.
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 36:668333332
+OSS: Receiving message from worker 238414 at time 36:668333332
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 36:751666665
+OSS: Receiving message from worker 238415 at time 36:751666665
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 36:834999998
+OSS: Receiving message from worker 238416 at time 36:834999998
+
+OSS PID:238396 SysClockS: 36 SysclockNano: 834999998
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	0	238412	27	434999999	36
+1	0	238413	27	672499999	36
+2	1	238414	27	884999999	35
+3	1	238415	28	134999999	34
+4	1	238416	28	372499999	34
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 2 (PID: 238414) at time 36:918333331
+OSS: Receiving message from worker 238414 at time 36:918333331
+OSS: Worker 238414 is planning to terminate.
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 37:43333331
+OSS: Receiving message from worker 238415 at time 37:43333331
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 37:168333331
+OSS: Receiving message from worker 238416 at time 37:168333331
+OSS: Sending message to worker in PCB slot 3 (PID: 238415) at time 37:293333331
+OSS: Receiving message from worker 238415 at time 37:293333331
+OSS: Worker 238415 is planning to terminate.
+OSS: Sending message to worker in PCB slot 4 (PID: 238416) at time 37:543333331
+OSS: Receiving message from worker 238416 at time 37:543333331
+OSS: Worker 238416 is planning to terminate.
+
+OSS PID:238396 SysClockS: 37 SysclockNano: 543333331
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	0	238412	27	434999999	36
+1	0	238413	27	672499999	36
+2	0	238414	27	884999999	36
+3	0	238415	28	134999999	36
+4	0	238416	28	372499999	36
+5	0	1818323316	6650473	-237403056	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1087321456	0
+16	0	32619	0	0	0
+17	0	-1087321624	32764	-237357120	0
+18	0	32619	-237357216	32619	0
+19	0	0	0	0	0
+
+
+OSS: Simulation finished.
+20 workers were launched and terminated.
+724 total messages were sent from OSS.
+Workers ran for a combined time of 37 seconds and 543333331 nanoseconds.
+OSS: Parent process terminating. Cleaning up...

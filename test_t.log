@@ -1,0 +1,149 @@
+OSS Starting, PID:237963 PPID:117392
+Called with:
+-n 2
+-s 2
+-t 1
+-i 0.2
+OSS: Initialized clock to 0s and 0ns.
+OSS: Launched child 237964 into PCB slot 0 at 0s 10000000ns.
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 0:260000000
+OSS: Receiving message from worker 237964 at time 0:260000000
+OSS: Launched child 237965 into PCB slot 1 at 0s 260000000ns.
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 0:385000000
+OSS: Receiving message from worker 237965 at time 0:385000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 0:510000000
+OSS: Receiving message from worker 237964 at time 0:510000000
+
+OSS PID:237963 SysClockS: 0 SysclockNano: 510000000
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	237964	0	10000000	2
+1	1	237965	0	260000000	1
+2	0	21862	-901091130	21862	0
+3	0	-1751020128	32630	16	0
+4	0	21862	16	0	0
+5	0	1818323316	6650473	-1751067568	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1688297264	0
+16	0	32630	0	0	0
+17	0	-1688297432	32767	-1751021632	0
+18	0	32630	-1751021728	32630	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 0:635000000
+OSS: Receiving message from worker 237965 at time 0:635000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 0:760000000
+OSS: Receiving message from worker 237964 at time 0:760000000
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 0:885000000
+OSS: Receiving message from worker 237965 at time 0:885000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 1:10000000
+OSS: Receiving message from worker 237964 at time 1:10000000
+
+OSS PID:237963 SysClockS: 1 SysclockNano: 10000000
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	237964	0	10000000	4
+1	1	237965	0	260000000	3
+2	0	21862	-901091130	21862	0
+3	0	-1751020128	32630	16	0
+4	0	21862	16	0	0
+5	0	1818323316	6650473	-1751067568	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1688297264	0
+16	0	32630	0	0	0
+17	0	-1688297432	32767	-1751021632	0
+18	0	32630	-1751021728	32630	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 1:135000000
+OSS: Receiving message from worker 237965 at time 1:135000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 1:260000000
+OSS: Receiving message from worker 237964 at time 1:260000000
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 1:385000000
+OSS: Receiving message from worker 237965 at time 1:385000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 1:510000000
+OSS: Receiving message from worker 237964 at time 1:510000000
+
+OSS PID:237963 SysClockS: 1 SysclockNano: 510000000
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	1	237964	0	10000000	6
+1	1	237965	0	260000000	5
+2	0	21862	-901091130	21862	0
+3	0	-1751020128	32630	16	0
+4	0	21862	16	0	0
+5	0	1818323316	6650473	-1751067568	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1688297264	0
+16	0	32630	0	0	0
+17	0	-1688297432	32767	-1751021632	0
+18	0	32630	-1751021728	32630	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 1:635000000
+OSS: Receiving message from worker 237965 at time 1:635000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 1:760000000
+OSS: Receiving message from worker 237964 at time 1:760000000
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 1:885000000
+OSS: Receiving message from worker 237965 at time 1:885000000
+OSS: Sending message to worker in PCB slot 0 (PID: 237964) at time 2:10000000
+OSS: Receiving message from worker 237964 at time 2:10000000
+OSS: Worker 237964 is planning to terminate.
+
+OSS PID:237963 SysClockS: 2 SysclockNano: 10000000
+Process Table:
+Entry Occupied PID      StartS StartN  MessagesSent
+0	0	237964	0	10000000	8
+1	1	237965	0	260000000	7
+2	0	21862	-901091130	21862	0
+3	0	-1751020128	32630	16	0
+4	0	21862	16	0	0
+5	0	1818323316	6650473	-1751067568	0
+6	0	0	0	0	0
+7	0	0	0	0	0
+8	0	0	0	0	0
+9	0	0	0	0	0
+10	0	0	0	0	0
+11	0	0	0	0	0
+12	0	0	0	0	0
+13	0	0	0	0	0
+14	0	0	0	0	0
+15	0	8	0	-1688297264	0
+16	0	32630	0	0	0
+17	0	-1688297432	32767	-1751021632	0
+18	0	32630	-1751021728	32630	0
+19	0	0	0	0	0
+
+OSS: Sending message to worker in PCB slot 1 (PID: 237965) at time 2:260000000
+OSS: Receiving message from worker 237965 at time 2:260000000
+OSS: Worker 237965 is planning to terminate.
+
+OSS: Simulation finished.
+2 workers were launched and terminated.
+16 total messages were sent from OSS.
+Workers ran for a combined time of 2 seconds and 260000000 nanoseconds.
+OSS: Parent process terminating. Cleaning up...

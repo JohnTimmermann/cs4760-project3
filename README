@@ -1,26 +1,31 @@
 Name: John Timmermann
-Date: 09/24/2025
+Date: 10/15/2025
 Environment: opsys, linux, vim
+
 How to compile the project:
-Type ’make’
+Type `make` in the terminal. This will create two executables: `oss` and `worker`.
+
 Example of how to run the project:
-./oss -n 12 -s 5 -t 3 -i 0.5
+To run the simulation, use the `oss` executable. Here is an example with all options:
+./oss -n 10 -s 5 -t 7 -i 0.5 -f logfile.txt
 
-Generative AI used : Gemin 2.5 Pro
+Command-Line Options:
+-n [proc]: The total number of child processes to launch.
+-s [simul]: The number of child processes that can run simultaneously.
+-t [time]: The bound of time a child process will have, in seconds.
+-i [interval]: The interval in milliseconds for launching new children.
+-f [logfile]: The name of the file to log the output of the `oss` process.
+
+Problems Encountered:
+I initially had a race condition when cleaning up terminated processes because I was using a non-blocking waitpid() call alongside the new message queue system. I resolved this by moving to a blocking waitpid() only after a child signaled its intent to terminate via a message.
+
+Generative AI Used: Gemini
+
 Prompts:
-    - How do I handle creating shared memory that can be used by two different processes?  
-    - What is the best way to handle signals (like ctrl+c) in c++ in a linux environment?
-    - Do you see any errors with my code
-    - Does my code meet the standards outlined in the document
+- How do I set up a System V message queue in C++?
+- Can you show me how to modify my main loop to send a message to one child at a time and wait for a response?
+- What is a good way to handle logging to both the console and a file in C++?
+- Please review my `oss.cpp` code for any logical errors.
 
-Summary: I needed some help with the the syntax and logic for handling shared memory and signals
-as I am not as familiar with these things. I also used it quite a lot for error checking my code
-to highlight some of the areas where my logic was incorrect. Finally I usually run all my code
-through AI as a double check pointing out any issues based on a certain criteria to make sure I am
-not missing anything critical.
-
-It was very useful for helping me understand how I could implement shared memory between two processes
-especially by using a shared header file.
-
-
-
+Summary:
+I used Gemini to understand the best way to implement the System V message queues which were new to me. It helped me with making the main scheduler loop in `oss` to handle the new "tight coordination" by sending a message and waiting for a reply before proceeding. I also used it to refactor my logging output function. It was very helpful for catching a logic errors where I had left in an old, redundant `waitpid` loop that conflicted with the new messaging system.
