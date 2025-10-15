@@ -2,6 +2,7 @@
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <sys/wait.h>
+#include <sys/msg.h>
 #include <string> 
 #include <unistd.h>
 #include <signal.h>
@@ -20,6 +21,7 @@ const int MAX_PROCESSES = 20;
 
 // Signal Handling Globals
 int shared_memory_id;
+int message_queue_id;
 SimulatedClock* shared_clock = nullptr;
 PCB* process_table_ptr = nullptr;
 volatile sig_atomic_t terminate_flag = 0;
@@ -43,6 +45,7 @@ void cleanup() {
     // Clean up shared memory
     if (shared_clock != nullptr) shmdt(shared_clock);
     if (shared_memory_id > 0) shmctl(shared_memory_id, IPC_RMID, NULL);
+    if (message_queue_id > 0) msgctl(message_queue_id, IPC_RMID, NULL);
     cout << "OSS: Cleanup complete." << endl;
 }
 
@@ -106,6 +109,14 @@ int main(int argc, char* argv[]) {
         perror("shmat");
         return 1;
     }
+
+    message_queue_id = msgget (MSG_KEY, IPC_CREAT | 0666);
+    if (message_queue_id < 0) {
+	    perror("msgget");
+	    shmctl(shared_memory_id, IPC_RMID, NULL);
+	    return 1;
+    }
+
 
     // Initialize the clock
     shared_clock->seconds = 0;
