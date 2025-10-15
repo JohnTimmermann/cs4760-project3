@@ -58,12 +58,12 @@ int main(int argc, char* argv[]) {
     int previous_seconds = shared_clock->seconds;
 
     // Check if termination time has been reached
-    message msg;
+    message message;
     bool should_terminate = false;
 
     do {
         // Block while waiting for a message from oss
-        if (msgrcv(message_queue_id, &msg, sizeof(msg.content), getpid(), 0) == -1) {
+        if (msgrcv(message_queue_id, &message, sizeof(message.content), getpid(), 0) == -1) {
             perror("worker: msgrcv");
             exit(1);
         }
@@ -71,14 +71,14 @@ int main(int argc, char* argv[]) {
         // Check termination time
         if (shared_clock->seconds > term_seconds || (shared_clock->seconds == term_seconds && shared_clock->nanoseconds >= term_nanos)) {
             should_terminate = true;
-            msg.content = 0; // terminate
+            message.content = 0; // terminate
         } else {
-            msg.content = 1; // running
+            message.content = 1; // running
         }
 
         // Send message back to oss
-        msg.messageType = getppid(); // Parent
-        if (msgsnd(message_queue_id, &msg, sizeof(msg.content), 0) == -1) {
+        message.messageType = getppid(); // Parent
+        if (msgsnd(message_queue_id, &message, sizeof(message.content), 0) == -1) {
             perror("worker: msgsnd");
             exit(1);
         }
@@ -95,5 +95,6 @@ int main(int argc, char* argv[]) {
     shmdt(shared_clock);
     return 0;
 }
+
 
 

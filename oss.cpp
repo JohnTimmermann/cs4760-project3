@@ -14,7 +14,8 @@ struct PCB {
     int occupied;
     pid_t pid;
     int start_seconds;
-    int start_nanos; 
+    int start_nanos;
+    int messagesSent; 
 };
 
 const int MAX_PROCESSES = 20;
@@ -113,7 +114,7 @@ int main(int argc, char* argv[]) {
     message_queue_id = msgget (MSG_KEY, IPC_CREAT | 0666);
     if (message_queue_id < 0) {
 	    perror("msgget");
-	    shmctl(shared_memory_id, IPC_RMID, NULL);
+	    msgctl(message_queue_id, IPC_RMID, NULL);
 	    return 1;
     }
 
@@ -128,6 +129,7 @@ int main(int argc, char* argv[]) {
     process_table_ptr = process_table; // For signal handler access
     for (int i = 0; i < MAX_PROCESSES; ++i) {
         process_table_ptr[i].occupied = 0;
+        process_table_ptr[i].messagesSent = 0;
     }
 
     // Loop Vars
@@ -136,16 +138,67 @@ int main(int argc, char* argv[]) {
     int next_launch_seconds = 0;
     int next_launch_nanos = 0;
     long last_print_nanos = 0;
+    int next_child_to_schedule = 0;
 
     srand(time(NULL));
 
     while ((total_launched < proc || active_children > 0 ) && !terminate_flag) {
         // Increment clock
-        shared_clock->nanoseconds += 10000000;
+
+        long increment_nanoseconds = 0;
+        if ( active_children > 0 ) {
+            increment_nanoseconds = 250000000 / active_children;
+        } else {
+            increment_nanoseconds = 10000000;
+        }
+
+        shared_clock->nanoseconds += increment_nanoseconds;
+
+        // Overflow logic
         if (shared_clock->nanoseconds >= 1000000000) {
             shared_clock->seconds++;
             shared_clock->nanoseconds -= 1000000000;
         }
+
+
+        if (active_children > 0) {
+            while (process_table_ptr[next_child_to_schedule].occupied == 0) {
+                next_child_to_schedule = (next_child_to_schedule + 1) % MAX_PROCESSES;
+            }
+
+            pid_t child_pid = process_table_ptr[next_child_to_schedule].pid;
+
+            // Prepare and send message to the chosen worker
+            message msg_to_child;
+            msg_to_child.messageType = child_pid; // Direct message to this specific worker
+            msgsnd(message_queue_id, &msg_to_child, sizeof(msg_to_child.content), 0);
+
+            // Log function needed here
+            cout << "OSS: Sending message to worker in PCB slot " << next_child_to_schedule << " (PID: " << child_pid << ") at time " << shared_clock->seconds << ":" << shared_clock->nanoseconds << endl;
+
+            // Wait for a reply from ANY worker (but it will be from the one we just messaged)
+            message msg_from_child;
+            msgrcv(message_queue_id, &msg_from_child, sizeof(msg_from_child.content), getpid(), 0);
+
+            // Log function needed here
+            cout << "OSS: Receiving message from worker " << child_pid << " at time " << shared_clock->seconds << ":" << shared_clock->nanoseconds << endl;
+
+            // Process the reply
+            process_table_ptr[next_child_to_schedule].messagesSent++;
+            if (msg_from_child.content == 0) { // worker is terminating 
+                
+                // Log function needed here
+                cout << "OSS: Worker " << child_pid << " is planning to terminate." << endl;
+
+                waitpid(child_pid, NULL, 0); // Perform a blocking wait to clean up the specific child
+                active_children--;
+                process_table_ptr[next_child_to_schedule].occupied = 0; // Free the slot
+            }
+
+            // Advance to next child
+            next_child_to_schedule = (next_child_to_schedule + 1) % MAX_PROCESSES;
+        }
+
 
         // Print process table every 0.5 seconds
         long current_total_nanos = shared_clock->seconds * 1000000000L + shared_clock->nanoseconds;
@@ -158,20 +211,6 @@ int main(int argc, char* argv[]) {
                 cout << i << "\t" << process_table_ptr[i].occupied << "\t" << process_table_ptr[i].pid << "\t" << process_table_ptr[i].start_seconds << "\t" << process_table_ptr[i].start_nanos << endl;
             }
             cout << endl;
-        }
-
-        // Check child terminations
-        int status;
-        pid_t terminated_pid;
-        while ((terminated_pid = waitpid(-1, &status, WNOHANG)) > 0) {
-            active_children--;
-            for (int i = 0; i < MAX_PROCESSES; ++i) {
-                if (process_table_ptr[i].pid == terminated_pid) {
-                    process_table_ptr[i].occupied = 0; // Free up slot
-                    cout << "Process with PID " << terminated_pid << " has terminated." << endl;
-                    break;
-                }
-            }
         }
 
         // Launch new child if possible
@@ -233,5 +272,6 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+
 
 
