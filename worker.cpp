@@ -1,6 +1,7 @@
 #include <iostream>
 #include <sys/ipc.h>
 #include <sys/shm.h>
+#include <sys/msg.h>
 #include <unistd.h>
 #include "shared.h"
 
@@ -23,6 +24,12 @@ int main(int argc, char* argv[]) {
 
     if (shared_memory_id < 0) {
         perror("worker: shmget");
+        return 1;
+    }
+
+    int message_queue_id = msgget(MSG_KEY, 0666);
+    if (message_queue_id < 0) {
+        perror("worker: msgget");
         return 1;
     }
 
@@ -51,19 +58,32 @@ int main(int argc, char* argv[]) {
     int previous_seconds = shared_clock->seconds;
 
     // Check if termination time has been reached
-    while (true) {
-        if (shared_clock->seconds > term_seconds || (shared_clock->seconds == term_seconds && shared_clock->nanoseconds >= term_nanos)) {
-            break;
+    message msg;
+    bool should_terminate = false;
+
+    do {
+        // Block while waiting for a message from oss
+        if (msgrcv(message_queue_id, &msg, sizeof(msg.content), getpid(), 0) == -1) {
+            perror("worker: msgrcv");
+            exit(1);
         }
 
-        // Print when seconds increment
-        if (shared_clock->seconds > previous_seconds) {
-            previous_seconds = shared_clock->seconds;
-            cout << "WORKER PID:" << getpid() << " PPID:" << getppid() << endl;
-            cout << " SysClockS: " << shared_clock->seconds << " SysclockNano: " << shared_clock->nanoseconds << " TermTimeS: " << term_seconds << " TermTimeNano: " << term_nanos << endl;
-            cout << " --" << (shared_clock->seconds - (term_seconds - max_seconds)) << " seconds have passed since starting" << endl;
+        // Check termination time
+        if (shared_clock->seconds > term_seconds || (shared_clock->seconds == term_seconds && shared_clock->nanoseconds >= term_nanos)) {
+            should_terminate = true;
+            msg.content = 0; // terminate
+        } else {
+            msg.content = 1; // running
         }
-    }
+
+        // Send message back to oss
+        msg.messageType = getppid(); // Parent
+        if (msgsnd(message_queue_id, &msg, sizeof(msg.content), 0) == -1) {
+            perror("worker: msgsnd");
+            exit(1);
+        }
+
+    } while (!should_terminate);
 
     // Termination message
     cout << "WORKER PID:" << getpid() << " PPID:" << getppid() << endl;
@@ -75,4 +95,5 @@ int main(int argc, char* argv[]) {
     shmdt(shared_clock);
     return 0;
 }
+
 
