@@ -1,0 +1,26 @@
+Name: John Timmermann
+Date: 09/24/2025
+Environment: opsys, linux, vim
+How to compile the project:
+Type ’make’
+Example of how to run the project:
+./oss -n 12 -s 5 -t 3 -i 0.5
+
+Generative AI used : Gemin 2.5 Pro
+Prompts:
+    - How do I handle creating shared memory that can be used by two different processes?  
+    - What is the best way to handle signals (like ctrl+c) in c++ in a linux environment?
+    - Do you see any errors with my code
+    - Does my code meet the standards outlined in the document
+
+Summary: I needed some help with the the syntax and logic for handling shared memory and signals
+as I am not as familiar with these things. I also used it quite a lot for error checking my code
+to highlight some of the areas where my logic was incorrect. Finally I usually run all my code
+through AI as a double check pointing out any issues based on a certain criteria to make sure I am
+not missing anything critical.
+
+It was very useful for helping me understand how I could implement shared memory between two processes
+especially by using a shared header file.
+
+
+
